@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Wishlist</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>My Wishlist Boards</h1>
+
+    <div class="add_item_form">
+    <h2>Add New Item</h2>
+    <div class="add_item_inputs">
+    <input type="text" class="textInput" id="item-name" placeholder="Item Name">
+    <input type="text" class="textInput" id="item-price" placeholder="Price">
+    <input type="url" class="textInput" id="item-link" placeholder="Link (URL)">
+    <input type="url" class="textInput" id="item-image" placeholder="Image URL">
+    <input type="text" class="textInput" id="item-category" placeholder="Category (e.g. Clothes)">
+    <button class="boardButton" onclick="addItem()">Add Item</button>
+    </div>
+    </div>
+
+    <div id="wishlist-boards" class="wishlist-boards">
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
